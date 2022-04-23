@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+  }
+  .registerCard {
+    margin: 10px;
+    background-color: #f4f8fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+  }
+  .searchCard {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+  }
+  .search { 
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: url(../public/assets/icons/search.svg) no-repeat scroll 5px 5px;
+    padding-left: 36px;
+    outline: none;
+    background-size: 21px;
+    background-position-y: center;
+    background-color: transparent;
+    color: #d1d4d5;
+    width: 100%;
+  }
+ .SearchLocation {
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: url(../public/assets/icons/th.svg) no-repeat scroll 5px 5px;
+    padding-left: 36px;
+    outline: none;
+    background-size: 21px;
+    background-position-y: center;
+    background-color: transparent;
+    color: #d1d4d5;
+    width: 100%;
+  }
+  .inputName {
+    box-sizing: border-box;
+    border-radius: 2px;
+   
+    padding-left: 36px;
+    outline: none;
+    background-size: 21px;
+    background-position-y: center;
+    background-color: transparent;
+    color: #d1d4d5;
+    width: 100%;
+  }
+ 
