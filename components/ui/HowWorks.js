@@ -25,7 +25,7 @@ function HowWorks() {
         />
         <RegisterYourAccount
           url="../assets/icons/pre.svg"
-          title="select your preference"
+          title="Select your preference"
           desc="Discover jobs most relevant to you by Experience level, salary, location, job type etc."
           filter
         />
