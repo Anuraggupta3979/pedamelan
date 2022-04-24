@@ -19,8 +19,8 @@ function RegisterYourAccount(props) {
       <div className="md:px-8 my-10 ">
         {props.filter ? (
           <div className="card">
-            <div className="bg-shortlistBg px-2 py-1 my-auto rounded-md">
-              <button className="text-activeButton">Create YOur Account</button>
+            <div className="bg-openButtonBg px-2 py-1 my-auto rounded-md">
+              <button className="text-openButton">{props.subCardTitle}</button>
             </div>
             <p className="text-urlColor ml-2 mt-8 mb-3 text-left">
               Experience Level
@@ -59,7 +59,9 @@ function RegisterYourAccount(props) {
         ) : (
           <div className="card">
             <div className="bg-shortlistBg px-2 py-1 my-auto rounded-md">
-              <button className="text-activeButton">Create YOur Account</button>
+              <button className="text-activeButton">
+                {props.subCardTitle}
+              </button>
             </div>
             <p className="text-urlColor ml-2 mt-8 mb-3 text-left">Full Name</p>
             <div className="  w-full bg-bodyColor">

@@ -21,18 +21,21 @@ function HowWorks() {
         <RegisterYourAccount
           url="/assets/icons/user.svg"
           title="Register your account"
+          subCardTitle="Create your account"
           desc="By registring an account, you can use our basic feature for find
                   hundreds of existing jobs"
         />
         <RegisterYourAccount
           url="/assets/icons/pre.svg"
           title="Select your preference"
+          subCardTitle="Job Filter"
           desc="Discover jobs most relevant to you by Experience level, salary, location, job type etc."
           filter
         />
         <RegisterYourAccount
           url="/assets/icons/user.svg"
           title="Do the interview"
+          subCardTitle="Job Interview"
           desc="Almost done from from quick turn arounds to big transformations with your dream dream   job."
         />
       </div>
