@@ -2,7 +2,7 @@ import React from "react";
 
 function RegisterYourAccount(props) {
   return (
-    <div className="bg-bodyColor registerCard  overflow-visible">
+    <div className="bg-bodyColor registerCard md:m-4 overflow-visible mt-8">
       <div className="rounded-full w-24 m-auto  my-10 bg-[#edf7fb]">
         <img
           src={props.url}
@@ -16,7 +16,7 @@ function RegisterYourAccount(props) {
         </h1>
         <p className="text-urlColor text-xl mt-10">{props.desc}</p>
       </div>
-      <div className="px-8 my-10 ">
+      <div className="md:px-8 my-10 ">
         {props.filter ? (
           <div className="card">
             <div className="bg-shortlistBg px-2 py-1 my-auto rounded-md">

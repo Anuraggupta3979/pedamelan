@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className=" px-3 pt-32  md:pt-60 md:-mt-60 justify-around m-auto w-11/12 md:w-4/5  ">
+    <footer className=" px-3   justify-around m-auto pt-5 w-11/12 md:w-4/5  ">
       {/* <div className="justify-around m-auto w-11/12 md:w-4/5"> */}
         <div className="w-full order-2  lg:order-1">
           <hr className="text-bodyColor mb-2 mt-5" />
