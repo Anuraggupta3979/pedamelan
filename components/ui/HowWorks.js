@@ -11,26 +11,27 @@ function HowWorks() {
           Easy step to get your dream job
         </h1>
         <p className="text-urlColor text-xl mt-8">
-          We ensure your next step is a step forward. That's why we built a jobs
+          We ensure your next step is a step forward. That&apos;s why we built a
+          jobs
           <br />
           marketplace that cut off the boring processes
         </p>
       </div>
       <div className="md:flex mt-20">
         <RegisterYourAccount
-          url="../assets/icons/user.svg"
+          url="/assets/icons/user.svg"
           title="Register your account"
           desc="By registring an account, you can use our basic feature for find
                   hundreds of existing jobs"
         />
         <RegisterYourAccount
-          url="../assets/icons/pre.svg"
+          url="/assets/icons/pre.svg"
           title="Select your preference"
           desc="Discover jobs most relevant to you by Experience level, salary, location, job type etc."
           filter
         />
         <RegisterYourAccount
-          url="../assets/icons/user.svg"
+          url="/assets/icons/user.svg"
           title="Do the interview"
           desc="Almost done from from quick turn arounds to big transformations with your dream dream   job."
         />
